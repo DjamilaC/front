@@ -24,5 +24,45 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }*/
 body{
-    background: rgb(189, 9, 114);
+    background: rgb(158, 79, 125);
+    /* couleur de fond de mon body */
+}
+header{
+    background-color: rgb(70, 68, 68);
+    /* couleur de fond de header */
+    color: white;  
+    /* couleur du texte */
+   
+    height: 100px;
+}
+nav{
+    background-color: springgreen;
+    height: 60px;
+}
+section{
+    background-color: navy;
+    height: 550px;
+}
+article{
+    background-color: mediumslateblue;
+    height: 66px;
+}
+.jaune{ 
+    /* je cible une class avec un point devant */
+    background-color: yellow;
+}
+#noir{
+    /* je cible un id avec un dièse devant */
+    background-color: black;
+    color: white;   
+    text-align: justify;
+    font-size: 25px;
+}
+footer{
+    background-color: green;
+    height: 100px;
+    
+}
+nav, footer{
+    color: purple;
 }
