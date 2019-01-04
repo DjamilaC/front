@@ -8,8 +8,8 @@ div{
     background-color: mistyrose;
  }
 .boite{
-    height: 10em;
-    width: 10em;
+    height: 5em;
+    width: 5em;
     padding: 5vh;
     border: 1px solid orchid;
     margin: 1vh;
@@ -19,4 +19,15 @@ div{
 }
 .clear{
     clear: both; 
+ }
+.boiteV{
+    background-color:rgb(9, 97, 9);
+    height: 5em;
+    width: 5em;
+    padding: 5vh;
+    margin: 2vh;
+    float: left;
+    background-color: rgb(31, 126, 63);
+    border-radius: 20%; 
+
  }
