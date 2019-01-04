@@ -1,0 +1,22 @@
+body{
+    margin: 0 auto;
+    background-color: lightgray
+}
+div{
+    width: 90%;
+    margin: 0 auto;
+    background-color: mistyrose;
+ }
+.boite{
+    height: 10em;
+    width: 10em;
+    padding: 5vh;
+    border: 1px solid orchid;
+    margin: 1vh;
+    float: left;
+    background-color: rgb(102, 165, 247);
+    border-radius: 50%; 
+}
+.clear{
+    clear: both; 
+ }
