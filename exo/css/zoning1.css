@@ -1,3 +1,4 @@
+body
 
 #conteneur{
     width: 960px;
@@ -52,7 +53,7 @@ header{
         height: 122px;
         width: 232px;
         line-height: 122px;
-           background-color: orchid;
+        background-color: orchid;
      }
      .rect4{
         border: 1px solid;
@@ -70,5 +71,5 @@ header{
      }
      .clear{
          clear: both;
-         
+
      }
