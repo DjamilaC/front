@@ -3,6 +3,6 @@ var prenom = window.prompt( "saisissez votre prénom" , "saisir le prénom");
 
 
 
-window.alert( "bonjour, " + nom + " " + prenom );
+alert( "bonjour, " + nom + " " + prenom );
 
 
