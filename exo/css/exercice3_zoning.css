@@ -1,0 +1,25 @@
+body{
+    background: aquamarine;
+    width: 50%;
+    margin: 0 auto;
+}
+#container{
+    width: 700px;
+    text-align: center;
+    background: rgb(100, 150, 150);
+}
+
+header{
+    height: 200px;
+    width: 700px;
+    border: 1px solid;
+}
+.texte{
+    height: 200px;
+    width: 350px;
+    float: left;
+}
+.image{
+    height: 200px;
+    width: 350px;
+}
