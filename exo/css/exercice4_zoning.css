@@ -8,7 +8,7 @@ body{
     background-color: bisque;
     width: 748px;
     height: 743px;
-    padding: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
     border: 2px solid burlywood;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -24,7 +24,7 @@ h1{
     clear: both;
 }
 .G{
-    width: 200px;
+    width: 180px;
     height: 600px;
     border-radius: 7px;
     border: 2px solid burlywood;
@@ -33,6 +33,7 @@ h1{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifS;
     color: rgb(209, 129, 25);
+    margin-right: 5px;
 
 }
 .D{
@@ -41,7 +42,7 @@ h1{
     border-radius: 7px;
     border: 2px solid burlywood;
     padding: 10px;
-    float: right;
+    float: left; 
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifS;
     color: rgb(209, 129, 25);
@@ -53,7 +54,7 @@ h1{
     border-radius: 5px;
     border: 2px solid burlywood;
     padding: 10px;
-    float: right;
+     float: left; 
     margin: 10px 10px 10px 10px;
 }
 
@@ -63,6 +64,6 @@ h1{
     border-radius: 5px;
     border: 2px solid burlywood;
     padding: 10px;
-    float: right;
+    float: left;
     margin: 10px 5px 10px 5px;
 }

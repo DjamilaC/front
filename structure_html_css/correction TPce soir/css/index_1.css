@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
 
 html, body {
@@ -35,6 +36,7 @@ a {
 
 /* ce soir les deux head et foot */
 .title {
+    
     font-family: 'Caveat Brush';
     font-size: 2em;
 
