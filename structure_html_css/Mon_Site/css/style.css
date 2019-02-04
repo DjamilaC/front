@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box; /* ça bloque l'élement, le recentre et ça fait une marge*/
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+h1{
+    font-size: 45px;
+    color: white;
+    margin-top: 50px;
+    font-family: "Amatic SC, cursive";
+    text-align: center;
+    font-weight: 400;
+}
+h2{
+    font-size: 50px;
+    color: crimson;
+    padding: 20px;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+}
+h3{
+    font-size: 22px;
+    color: #2c3e50;
+    padding: 15px;
+}
+h4{
+    font-size: 20px;
+    color:#2c3e50;
+    margin-top: 30px;
+    text-align: center; 
+}
+h5{
+    font-size: 90px;
+    color:purple;
+    padding: 20px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-weight: bold;
+}
+blockquote{ /* indique que le texte contenu dans l'element est une citation longue*/
+    font-style: italic;
+    font-size: 120%;
+}
+strong{ /*indique que le texte a une importance particulière ou un certain serieux voir un caractère urgent*/
+    font-weight: bold;
+}
+main{
+    background: mistyrose;
+    margin: 0 auto;
+    width: 1000px;
+
+}
+aside{
+    height: 300px;
+    
+    
+}
+section{
+    margin-top: 50px;
+    padding: 20px;
+}
+footer{
+    background: mistyrose;
+    height: 30px;
+}
+/*********************************HEADER*****************************************/
+
+header{
+    background-color: slategray; 
+    height: 175px;
+}
+#logo{
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 15px;
+
+}
+#slogan{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+#rs{
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+#rs a{
+    font-size: 30px;
+    color: white;
+    display: block;
+    text-align: right;
+    padding: 15px 30px 0 0;
+    text-decoration: none;
+}
+#rs a:hover{
+    font-size: 60px;
+    transition: 2s;
+}
+/********************FIN HEADER*****************************/
+/***********************NAV*********************************/
+
+nav{
+    background: mistyrose;
+    border-bottom: 4px solid slategray;
+    text-align: center;
+    padding: 17px;
+}
+nav a{
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    border: 1px solid pink;
+    padding: 6px 9px;
+    border-radius: 7px;
+    margin: 0px 8px;
+}
+nav a:hover{
+    background: pink;
+    transition: 2s;
+}
+.activ{
+    background: pink;
+}
+.roboto p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.violet{
+    color: purple;
+}
+.rouge{
+    color: red;
+}
+.noir{
+    color: black;
+}
+.vertf{
+    color: rgb(12, 247, 12);
+}
+
+.marron{
+    color: firebrick;
+    font-weight: bold;
+}
+.noir span{
+    color: blue;
+}
+.noir1{
+    color: black;
+}
+.noir1 span{
+    color:  rgb(12, 247, 12);
+}
+
+
+/*************IMAGE*************/
+.imageFond{
+    
+    background: black url("../img/fond.jpg")no-repeat;
+    background-size: cover;
+}
+.imageFond p{
+    width:70% ;
+    margin: 100px auto 200px auto;
+    background: rgba(255, 255, 255, 0.60);
+    padding: 20px;
+    font-size: 120%;
+    border-radius: 10px;
+}
