@@ -39,7 +39,7 @@
     <a href="selecteur.html">Selecteurs</a>
     <a href="image.html">Images</a>
     <a href="position.html">Positions</a>
-    <a href="zoning.html">Zonin</a>
+    <a href="zoning.html">Zoning</a>
     <a href="liste.html"class="activ">Liste</a>
     <a href="lien_menu.html">Liens & menu</a>
     <a href="tableau.html"> Tableau</a>
@@ -51,23 +51,54 @@
 
 <body>
         <main> 
-                <h2> TEXTE</h2>
-                <aside> <!--Aside: contenu secondaire-->
-                    <marquee></marquee>
-                    <marquee> </marquee>
-                </aside>
-                <section> <!--section: zone de contenu: titres, texte, regroupement thématique-->
-                    <div> <!--div: zone supplémentaire de contenu-->
-                    </div>
-                    <span> <!--Span : zone supplémentaire de contanu-->
-                        <!-- Span est un conteneur générique en ligne (inline) pour les contenus phrasés, il ne représente rien de particulier -->
-                    </span>
-                    
-                    <article>
+        <h2> LES LISTES</h2>
+                
+        <section class="listeOrd"> 
+            <H3>les listes ul: non ordonnées</H3>
+            <ul class="fruit">
+                <li> <i class="fas fa-arrow-right" ></i>Fraise</li>
+                <li><i class="fas fa-arrow-right"></i> Banane</li>
+                <li><i class="fas fa-arrow-right"></i> Mangue</li>
+            </ul>
+        </section>
+
+        <section>
+            <H3>listes imbriquées</H3>
+            <ul class="imbrique">
+                <li class="eu"><i class="fas fa-arrow-right" aria-hidden="true" ></i> <span>Europe</span> 
+                    <ul>
+                    <li> Angleterre</li>
+                    <li> Islande</li>
+                    <li> Suède</li>
+                    </ul>             
+                </li> 
+                 <li class="asie"><i class="fas fa-arrow-right" aria-hidden="true" ></i><span>Asie</span> 
+                    <ul>
+                    <li>Malaisie</li>
+                    <li>Japon</li>
+                    <li>Indonésie</li>
+                    </ul>
+                </li>             
+                </ul>              
+        </section>
+        <section>
+                <H3>listes ol: ordonnées</H3>
+                <ol class="ordonne">
+                    <li>Html / Css</li>
+                    <li>PHP / SQL</li>
+                    <li>JS / JQUERRY</li>
+                </ol>
+            </section>
+            <section>
+                <h3>Listes de définition</h3>
+                <dl class="definition">
+                    <dt>F</dt>
+                    <dt>France</dt>
+                    <dt>Finlande </dt>
+                </dl>
+            </section>
         
-                    </article>
         
-                </section>
             </main>
             <a href="#logo"> <button type="button"> <i class="fas fa-arrow-circle-up" aria-hidden="true"></i></button></a>
             <!-- aria accés de contenus web plus faciles pour les handicapés => https://developer.mozilla -->

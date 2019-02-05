@@ -188,3 +188,202 @@ nav a:hover{
     font-size: 120%;
     border-radius: 10px;
 }
+.imageTourEF{
+    border: 5px solid black;
+    box-shadow: 3px 3px 3px 3px  rgb(110, 109, 109);
+    width: 260px;
+    height: 385px;
+    margin: 0 auto;
+    padding-top: 1px;
+    padding-left: 1px; 
+}
+/************TOUR EIFFEL  ( CORRECTION SANDRA)************/
+
+/* img[src="img/toureiffel.jpg"]{
+    margin: auto;
+    width: 250px;
+    display: block;
+    border: 5px solid black;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+
+} */
+
+/*************************IMAGE PONT********************/
+
+.clear{
+    clear: both; 
+ }
+.imagePont1{
+    width: 308px;
+    height: 223px;
+    float: left;
+    margin-left:120px ;
+    border: 4px solid white;
+    box-shadow:5px 5px 15px rgba(0,0,0,1.5); 
+    
+}
+
+.imagePont2{
+    float: right;
+    width: 308px;
+    height: 223px;
+    margin-right: 120px;
+    border: 4px solid white;
+    box-shadow:5px 5px 15px rgba(0,0,0,1.5); 
+}
+    
+.imagePont3{
+    width: 308px;
+    margin: 0 auto;
+    margin-top: 40px;
+    height: 223px;
+    border: 4px solid white;
+    box-shadow:5px 5px 15px rgba(0,0,0,1.5); 
+    
+}
+.pontH3{
+    text-align: center;
+    transition-duration: 1s;
+}
+.imagePont1:hover{
+    transform : rotate(-40deg);
+    transition-duration: 1s;
+}
+.imagePont2:hover{
+    transform : rotate(40deg);
+    transition-duration: 1s;
+}
+.imagePont3:hover{
+    transform : rotate(-360deg);
+    transition-duration: 1s;
+}
+/*******************Correction Sandra ( ROTATION IMAGES)*****************/
+
+/* .rotationIMG{ image de type inline-block, elle comporte des marges par defaut. pour supprimer cette marge, ouvrir commentaire aprés 1ère photo et la fermer et la fermer avant 
+    text-align: center;
+
+}
+.image{
+    margin: 20px;
+    border: 5px solid #eee;
+    box-shadow: 12px 12px 6px 6px rgba(0,0,0,0.5);
+    transition: 1s;
+}
+.image:hover{
+    transform: rotate(7deg);
+}
+.rotation360{
+    transform: rotate(-360deg);
+} */
+
+/********************PAGE LISTE********************/
+
+ul.fruit{
+    float: left;
+    list-style: none;
+}
+ul.fruit li{
+    display: inline-block;
+    margin: 15px;
+     
+}
+ li i{
+    color: rgb(202, 26, 26);
+    font-size: 80%;
+}
+.imbrique, .imbrique ul{
+    padding-left: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+.asie, .eu{
+    margin-top: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+.asie ul li:hover{
+    color: tomato;
+    font-size: 30px;
+    transition: 2s;
+}
+.asie span:hover{
+    color: tomato;
+    font-size: 30px;
+    transition: 1s;
+}
+.eu span:hover{
+    color: tomato;
+    font-size: 30px;
+    transition: 1s;
+
+}
+.eu ul li:hover{
+    color: tomato;
+    font-size: 30px;
+    transition: 1s;
+}
+.asie span, .eu span{
+    font-size: 25px;
+    font-weight: bold;
+}
+.definition ol li{
+    list-style: none;
+}
+
+/******************************LA PAGE TABLEAU****************************/
+.tableau{
+    border: 1px solid #2980b9;
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+.tableau thead, .tableau tfoot{
+    background: #d0e3fa;
+    
+}
+th{
+    border: 1px solid #2980b9;
+    width: 25%;
+    padding: 4px;
+}
+td{
+    border: 1px solid #6495ed;
+    font-size: 100%;
+    padding: 5px;
+    text-align: center;
+}
+.sec{
+    padding-bottom: 20px;
+}
+
+/**********************la page position*************/
+
+.centre{
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    background: rgb(26, 196, 196);
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    line-height: 180px;
+    font-style: italic; 
+}
+
+.relative {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background: brown;
+    position: relative;
+    bottom: 50px;
+    
+}
+.relative div{
+    width: 50px;
+    height: 50px;
+    background: purple;
+    position: absolute ;
+    font-size: 10px;
+    bottom: 10px;
+}
