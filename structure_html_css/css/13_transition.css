@@ -6,7 +6,7 @@ ul {
     /*sélectionne toutes les listes <ul>*/
     list-style: none;
     /*suppression des puces des listes*/
-    float: left;
+    float: left; 
     /*effet flottant à gauche*/
     margin: 0;
     /*marges extérieures*/

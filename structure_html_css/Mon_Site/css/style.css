@@ -127,14 +127,14 @@ nav{
 }
 nav a{
     font-family: 'Amatic SC', cursive;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     color: black;
     font-weight: 500;
     border: 1px solid pink;
     padding: 6px 9px;
     border-radius: 7px;
-    margin: 0px 8px;
+    margin: 0px 6px;
 }
 nav a:hover{
     background: pink;
