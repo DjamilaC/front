@@ -387,6 +387,15 @@ td{
     font-size: 10px;
     bottom: 10px;
 }
+button{
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    font-size: 350%;
+}
 
 /********************LE POURCENTAGE**********************/
 .zone30{
@@ -429,7 +438,12 @@ td{
     box-shadow: 5px 5px 5px grey;
     float: left; 
     border: 2px solid gray;
-    margin: 10px;
+    margin: 10px;font-size: 150%;
+    line-height: 150px;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(192, 67, 67);
+    font-weight: bolder; 
+
     
 }
 .zoneFloat2{
@@ -439,6 +453,11 @@ td{
     float: left;
     margin: 10px;
     border: 2px solid gray;
+    font-size: 150%;
+    line-height: 150px;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(192, 67, 67);
+    font-weight: bolder; 
 
 }
 .zoneFloat3{
@@ -448,6 +467,11 @@ td{
     float: left;
     margin: 10px;
     border: 2px solid gray;
+    font-size: 150%;
+    line-height: 150px;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(192, 67, 67);
+    font-weight: bolder; 
 }
 .zoneFloat4{
     width: 150px;
@@ -456,6 +480,11 @@ td{
     float: left;
     margin: 10px;
     border: 2px solid gray;
+    font-size: 150%;
+    line-height: 150px;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(192, 67, 67);
+    font-weight: bolder; 
     
 }
 .zoneFloat5{
@@ -465,6 +494,11 @@ td{
     float: left;
     margin: 10px;
     border: 2px solid gray;
+    font-size: 150%;
+    line-height: 150px;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(192, 67, 67);
+    font-weight: bolder; 
 }
 .zoneFloat6{
     width: 150px;
@@ -473,6 +507,11 @@ td{
     float: left;
     margin: 10px;
     border: 2px solid gray;
+    font-size: 150%;
+    line-height: 150px;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(192, 67, 67);
+    font-weight: bolder; 
 }
 .zoneFloat7{
     width: 150px;
@@ -481,6 +520,11 @@ td{
     float: left;
     margin: 10px;
     border: 2px solid gray;
+    font-size: 150%;
+    line-height: 150px;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(192, 67, 67);
+    font-weight: bolder; 
 }
 .zoneFloat8{
     width: 150px;
@@ -489,6 +533,11 @@ td{
     float: left;
     margin: 10px;
     border: 2px solid gray;
+    font-size: 150%;
+    line-height: 150px;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(192, 67, 67);
+    font-weight: bolder; 
 }
 .zoneFloat9{
     width: 150px;
@@ -497,6 +546,11 @@ td{
     float: left;
     margin: 10px;
     border: 2px solid gray;
+    font-size: 150%;
+    line-height: 150px;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(192, 67, 67);
+    font-weight: bolder; 
 }
 
 .zoneFloat10{
@@ -506,6 +560,11 @@ td{
     float: left;
     margin: 10px;
     border: 2px solid gray;
+    font-size: 150%;
+    line-height: 150px;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(192, 67, 67);
+    font-weight: bolder; 
 }
 .zoneFloat1:hover{
     border-radius: 50%;
@@ -560,9 +619,88 @@ td{
     transform: rotate(-360deg); 
 }
 
+/* ********************EXERCICE LE FLOAT***************/
 
+.vert{
+    width: 100%;
+    height: 50px;
+    background-color: forestgreen;
+    float: left;  
+}
 
+.rose{
+    width: 25%;
+    background-color:pink ;
+    height: 200px;
+    float: left;
+    margin: 0 auto;
+}
+.rose:hover{
+    transform: rotate(45deg);
+    border-radius: 85%;
+    transition: 1s;
+}
+.marron{
+    width: 25%;
+    background-color: rgb(138, 43, 43);
+    height: 200px;
+    float: left;
+    margin: 0 auto;
+}
+.marron:hover{
+    transform: rotate(-45deg);
+    border-radius: 85%;
+    transition: 1s;
+}
+.vertBleu{
+    width: 25%;
+    background-color: rgb(46, 127, 133);
+    height: 200px;
+    float: left;
+    margin: 0 auto;
+}
+.vertBleu:hover{
+    transform: rotate(45deg);
+    border-radius: 85%;
+    transition: 1s;
+}
+.roseFonce{
+    width: 25%;
+    background-color: rgb(161, 51, 138);
+    height: 200px;
+    float: left;
+    margin: 0 auto;
+   
+}
+.roseFonce:hover{
+    transform: rotate(-45deg);
+    border-radius: 85%;
+    transition: 1s;
+}
 
+/* **********************FLEXBOX*******************/
+
+#flex{
+    width: 100%;
+    height: 400px;
+    flex-direction: row;
+    display: flex;
+}
+#flex div{
+    border: 4px solid white;
+    margin: 5%;
+    width: 25%;
+    height: 150px;
+    color: white;
+    background: maroon;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 150%;
+    line-height: 150px;
+    
+
+}
+    
 
      /***********************LA PAGE ZONING******************/
 
@@ -938,10 +1076,43 @@ color: white;
     height: 150px;
     background-color: rgb(94, 160, 160);
 }
-.slide{
+.slider{
     width: 100%;
     height: 150px;
-    background-color: rgb(9, 107, 107);
+    overflow: hidden;
+    margin: 0;
+}
+.slides{
+    animation: glisse 10s infinite;
+    width: calc(150px * 3);
+
+}
+.slide{
+    float: left;
+}
+@keyframes glisse{
+    0%{
+        transform: translateX(0);
+    }
+    /* 10%{
+        transform: translateX(0);
+    } */
+    33%{
+        transform: translateX(-150px);
+    }
+    /* 43%{
+        transform: translateX(-150px);
+    } */
+    66%{
+        transform: translateX(-300px);
+    }
+    /* 76%{
+        transform: translateX(-300px);
+    } */
+    100%{
+        transform: translateX(0);
+    }
+    }
 }
 .C{
     float: left;
