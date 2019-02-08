@@ -605,18 +605,28 @@ button{
 .zoneFloat8:hover{
     border-radius: 50%;
     transition-duration: 1s;
-    transform: rotate(-360deg); 
+    transform: rotate(360deg);
+    background: lightslategray;
+    border: 15px solid mistyrose; 
     
 }
-.zoneFloat9:hover{
+/* .zoneFloat9:hover{
     border-radius: 50%;
     transition-duration: 1s;
     transform: rotate(-360deg); 
-}
+} */
 .zoneFloat10:hover{
     border-radius: 50%;
     transition-duration: 1s;
     transform: rotate(-360deg); 
+}
+     /* ***************CORRECTION SANDRA***************/
+.zoneFloat9:hover{
+    background: lightslategray;
+    border: 15px solid mistyrose;
+    transition: 1s;
+    transform: rotate(45deg);
+    border-radius: 50%;
 }
 
 /* ********************EXERCICE LE FLOAT***************/
@@ -1113,7 +1123,7 @@ color: white;
         transform: translateX(0);
     }
     }
-}
+
 .C{
     float: left;
     width: 25%;
@@ -1138,3 +1148,91 @@ color: white;
     height: 150px;
     background-color: rgb(60, 170, 155);
 }
+
+/* ******************LA PAGE LIENS ET MENUS*********************/
+
+.ancre{
+    text-align: center;
+    margin: 15px;
+}
+.ancre a{
+    color: white;
+    background: tomato;
+    padding: 7px;
+    text-decoration: none;
+    margin: 7px;
+    border-radius: 7px;
+    box-shadow: 0px 1px 24px 0px rgba(46, 50, 50, 0.73);
+}
+.ancre a:hover{
+    font-size: 150%;
+    transition: 2s;
+}
+.contAncre{
+    border-top: 2px solid #2c3e50;
+    border-bottom: 2px solid #2c3e50;
+}
+#lien a{
+    text-decoration: none;
+    color: lightblue;
+    font-size: 120%;
+    display: inline-block;
+}
+/* ************************LES LIENS**********************/
+
+#lesMenus{
+    background: transparent;
+    border-bottom: 4px solid slategray;
+    text-align: center;
+    padding: 17px;
+}
+#lesMenus a{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    color: brown;
+    font-weight: 500;
+    border: 1px solid pink;
+    padding: 6px 9px;
+    border-radius: 7px;
+    margin: 0px 6px;
+    background-color: aliceblue;
+}
+#lesMenus a:hover{
+    background: brown;
+    transition: 1s;
+    color: white;
+    
+} 
+/* **********correction sandra********* */
+/* #lien a{
+    text-decoration: none;
+    color: lightblue;
+    
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 120%;
+}
+#menu ul{
+    list-style: none;
+    text-align: center
+}
+#menu nav{
+    background: transparent;
+    text-align: center;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu nav a{
+    padding: 10px;
+    color: crimson;
+    text-decoration: none;
+    background: white;
+    
+}
+#menu nav a:hover{
+    background: yellow;
+    transition: 1s ease-in-out;
+} */
+ 
