@@ -47,27 +47,50 @@
     <a href="multimedia.html">Multimedia</a>
     <a href="animation.html">Animation</a>
     <a href="explication_flexbox.html">Flexbox</a>
+    <a href="explication.html">Figure/Figcaption</a>
+    <a href="pattern.html">Pattern</a>
     
 </nav>
 
 <body>
         <main> 
-                <h2> TEXTE</h2>
-                <aside> <!--Aside: contenu secondaire-->
-                    <marquee></marquee>
-                    <marquee> </marquee>
-                </aside>
-                <section> <!--section: zone de contenu: titres, texte, regroupement thématique-->
-                    <div> <!--div: zone supplémentaire de contenu-->
-                    </div>
-                    <span> <!--Span : zone supplémentaire de contanu-->
-                        <!-- Span est un conteneur générique en ligne (inline) pour les contenus phrasés, il ne représente rien de particulier -->
-                    </span>
-                    
-                    <article>
-        
-                    </article>
-        
+                
+                <h2> Le formulaire</h2> 
+                <section class="formulaire"> 
+                   
+                    <form method="post" action="url de destination"enctype="multipart/form-data">
+                        <label for="Pseudo">Pseudo*</label> 
+                        <input id="Pseudo" type="text" name="pseudo" required> <br/>
+                        <label for="Prénom">Prénom</label> 
+                        <input id="Prénom" type="text" name="Prénom" placeholder="votre prénom" > <br/>
+                        <label for="Mot de passe"> Mot de passe</label> 
+                        <input id="Mot de passe" type="text" name="mot de passe"> <br/>
+                        <label for="E-mail">email</label> 
+                        <input id="E-mail" type="text" name="email"  > <br/>
+                        <label for="cv">CV</label> 
+                        <input id="cv" type="file" name="choisir un fichier"  > <br/>
+                        <p>quels sont vos fruits préféres?</p>
+                        <label for="orange" >Orange</label> 
+                        <input type="checkbox" id="orange" value="orange" chacked> <br>
+                        <label for="fraise" >Fraise</label> 
+                        <input type="checkbox" id="fraise" value="fraise"> <br>
+                        <label for="mangue" >Mangue</label> 
+                        <input type="checkbox" id="mangue" value="mangue"> <br>
+                       
+                        <label for="code postal">Code Postal</label>
+                        <input id="code postal" type="text" name="code postal" maxlength="5" pattern=" [0-9]{5} "> <br/>
+
+                        <label for="message">message</label> 
+                        <textarea name="message" cols="30" rows="5"></textarea> <br>          
+                        <input type="submit" name="envoyer" value="Envoyer">
+                        <input type="reset" name="annuler" value="Annuler">             
+                        
+                        
+
+                                          
+
+                    </form>
+
                 </section>
             </main>
             <a href="#logo"> <button type="button"> <i class="fas fa-arrow-circle-up" aria-hidden="true"></i></button></a>

@@ -76,7 +76,6 @@ ul li {
     display: inline-block;
     width: 100px;
     height: 30px;
-    margin: 0;
     padding: 0;
 }
 ul li a{
@@ -85,9 +84,9 @@ ul li a{
     color:  #FFF;
 }
 ul li:hover{
-    background:  rgb(238, 193, 219);
-    width: 100px;
-    height: 30px;
+    background:  rgb(243, 63, 168);
+    /* width: 100px;
+    height: 30px; */
 
 }
 .contenu{
