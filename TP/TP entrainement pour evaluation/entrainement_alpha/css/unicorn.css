@@ -17,12 +17,7 @@ header{
     margin: 0;
     padding: 0;
 }
-.haut{
-    width: 75%;
-    height: 100px;
-    background-image: url(../img/rainbow.png)no-repeat;
 
-}
 header h3{    
     display: inline;
     margin-left: 5px;
