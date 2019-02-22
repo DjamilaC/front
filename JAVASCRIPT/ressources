@@ -14,6 +14,7 @@ si on ne change pas de font-size pour la balise html valeurc'est 16px.
 le em: 1em est égal à 1 x la valeur de font-size de sa balise parente.
 par exemple: le h1 fait 2em par defaut. si le h1 est enfant de la balise body et qu'on a donné 
 une font size  de 14px a ce body le h1 aura une taille de 2 x 14 donc 28px.
-https://flexboxfroggy.com/#fr
+ flexbox :https://flexboxfroggy.com/#fr
 https://www.w3.org/TR/css-2010/
 https://fr.wikipedia.org/wiki/Document_Object_Model
+https://developer.mozilla.org/fr/docs/Using_geolocation

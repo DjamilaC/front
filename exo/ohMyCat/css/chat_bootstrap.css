@@ -1,0 +1,24 @@
+#header{
+    background: navy;
+    height: 10vh;
+}
+.slide{
+    background: #000;
+    height: 10vh;
+}
+.form{
+    background: bisque;
+    height: 10vh;
+}
+.txt{
+    background: orange;
+    height: 10vh;
+}
+.chat{
+    background: khaki;
+    height: 10vh;
+}
+.footer{
+    background: navajowhite;
+    height: 10vh;
+}
