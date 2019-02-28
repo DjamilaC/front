@@ -7,16 +7,16 @@
     <title>Document</title>
     <style>
     .msgBox{
-        background-color: silver;
-        width: 242px;
+        background-color: palevioletred;
+        width: 350px;
         position: absolute;
         left: 50%;
         top: 50%;
         transform:translateX(-50%, -50%);
-        height: 242px;
+        height: 100px;
     }
     .msgBox p{
-        background-color: pink;
+        
         padding: 10px 20px;
         text-align: center;
         
@@ -28,6 +28,12 @@
         /* left: 88%;
         bottom: 65%; */
     } 
+    img{
+        position: absolute;
+        top:20%;
+        left:5%;
+        
+    }
     </style>
 </head>
 <body>
@@ -61,13 +67,21 @@
         var pMessage = document.createElement("p");0
         // ajouter a cet objet pMessage le contenu texte suivant : je suis une boite de dialogue
 
-        pMessage.textContent = "je suis une boite de dialogue";
+        pMessage.textContent = "Attention ta boite mail est pleine";
         // donner à la boite de dialogue un enfant pMessage avec la méthode appendChild
         boiteDialogue.appendChild(pMessage);
 
         var closeBtn = document.createElement("button");
         closeBtn.textContent = "X";
         boiteDialogue.appendChild(closeBtn);
+
+        var image = document.createElement('img');
+        boiteDialogue.appendChild(image);
+        
+        image.src='images/warning.png';
+        
+
+
         closeBtn.addEventListener('click', function(){
         boiteDialogue.parentNode.removeChild(boiteDialogue);
         })
