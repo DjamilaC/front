@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+        body{
+            background: lightblue;
+        }
     .msgBox{
         background-color: silver;
         width: 242px;
@@ -13,7 +16,7 @@
         left: 50%;
         top: 50%;
         transform:translateX(-50%, -50%);
-        height: 242px;
+        height: 150px;
     }
     .msgBox p{
         background-color: pink;
@@ -44,7 +47,7 @@
 
     var btnOpenBox = document.getElementById('btnAfficheDialog');
 
-    function afficheMessage(){
+    function afficheMessage(msgText){
         // dans une variable nomméé en body en selectionne la balise body dans le DOM
         var body = document.querySelector("body");
         // dans une variable boiteDialogue on crée un objet div avec la methode createElement
@@ -69,11 +72,22 @@
         closeBtn.textContent = "X";
         boiteDialogue.appendChild(closeBtn);
         closeBtn.addEventListener('click', function(){
+         // au clic sur le bouton X, fermeture de la boite de dialogue    
         boiteDialogue.parentNode.removeChild(boiteDialogue);
+        
         })
          
     }//FIN DE LA FONCTION afficheMessage
-    btnOpenBox.addEventListener("click", afficheMessage);
+    // ici les parenthèses qui suivent afficheMessage déclenchent immédiatement la fonction
+    // SANS ATTENDRE LE CLICK, pour eviter ça on va faire une 2ème version ci-dessous
+    // btnOpenBox.addEventListener("click", afficheMessage('le nouveau texte de la boite') );
+
+    // Version 2 de l'appel de fonction avec paramètres
+    /* si nous voulons spécifier des paramètres pour la fonction que nous appelons (ici, la fonction afficheMessage), alors nous ne pouvons pas l'invoquer directement- nous abvons besoin de la mettre à l'interieur d'une fonction anonyme(elle n'est pas dans la portée immédiate et n'est donc pas apelléé immediatement). Maintenenat, elle ne sera pas apellé tant que le bouton n'est pas cliqué*/
+     btnOpenBox.addEventListener('click', function(){
+        afficheMessage('le nouveau texte de la boite');
+     })
+    //  si on veut que la fonction se declenche pas toute seule il faut la mettre dans une fonction anonyme ligne de dessus
 
     
     
