@@ -25,7 +25,7 @@
     <h3>Jquerry UI : User Interface(interface utilisateur) version Actuelle UI 1.12</h3>
     <p>c'est un ensemble d'interfaces utilisateurs, d'effets, de widgets, de thèmes conçus à partir de la bibliothèque de jQuerry</p>
     <p>Si on a juste besoin d'un selecteur de dates dans un formulaire Jquerry UI est un choix idéal
-        <a href="https://jqueryui.com/datepicker/">le lien</a>
+        <a href="https://jquerry.com/datepicker/">le lien</a>
         
     </p>
     <h3>Jquerry Moble Version 1.4.5 : est un framework d'interfaces utilisateur optimisé pour les ecrans tactiles</h3>
@@ -35,6 +35,39 @@
     <p>La methode la plus basique et la plus sipmle consiste à télécharger la librairie jQuerri.js sur le site officiel <a href="https://jquery.com/"> télécharger le site officiel</a> </p>
 
     <p>prendre le premier lien de download(Download the compressed production</p>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    ensuite on utilise une balise script interne( ou un lien vers notre fichier javascript)
+    <h2>Ne jamais continuer à coder sans avoir fait avec sucées ce 1er test</h2>
+    <hr>
+    <h3>Selectionner en jquerry</h3>
+    <p>le coeur de jQuerry se trouve dans la selection d'elements pour ensuite executer des méthodes dessus</p>
+    <p>
+        $(selecteur) accepte en argument tout sélecteur CSS, jQuerry nous renvoie ensuite une collection d'un ou plusieurs éléments DOM enveloppées dans un objet jQuerry.
+
+    </p>
+    <p>
+        $('div') séléctionne tous les divs
+        $('.titre') séléctionne tous les éléments qui ont la classe="titre".
+        $('#boite') séléctionne l'unique élement qui a l'id="boite"
+    </p>
+    <p>cette enveloppe jQuerry est celle qui donne accés à toutes les fonctionnalités de jQuerry</p>
+    <ul>
+        <li>Rajouter des classes</li>
+        <li>Modifier le contenu HTML</li>
+        <li>Afficher ou cacher des élements</li>
+        <li>les animer etc.</li>
+    </ul>
+    <p> Tous les elements sélectionnées en javascript pur (document.getElementById, querrySelector etc) sont des élements DOM et tous ceux séléctionnés avec $('...') sont des éléments dans une enveloppejQuerry</p>
+    <h3>jQuerry dispose de plusieurs méthodes pour parcourir l'arbre du document (le DOM)</h3>
+    <ul>
+        <li>children() parcourt les enfants</li>
+        <li>find() parcourt les descendants</li>
+        <li>next() renvoie le voisin suivant </li>
+        <li>prev() renvoie le voisin précédent </li>
+        <li>parent() renvoie le parent </li>
+        <li>eq() renvoie, parmi une liste d'éléments, celui qui se trouve à l'index fourni</li>
+    </ul>
+    <a href="pixabay">lien vers images gratuites</a>
 
 </body>
 </html>
