@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    *{
+        box-sizing: border-box;
+    }
+    html{
+        font-size: 62.5% /*base 10px */
+    }
+    body, input, textarea{
+        font: 1.3rem/1.5 arial, helvetica, sans-serif;
+    }
+    #monForm{
+        width: 60%;
+        background-color: blanchedalmond;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    #monForm fieldset{
+        border: 1px dashed silver;
+        border-radius: 1rem;
+        box-shadow: 0 0 3px rgba(0, 0, 0,.25);
+
+    }
+    #monForm fieldset legend{
+        background: blanchedalmond;
+        padding: 1rem;
+    }
+    #monForm input, #monForm textarea{
+        width: 100%;
+        margin: 5px 0;
+    }
+    #monForm p{
+        margin: .5rem 0;/* 1em = 1rem * font-size du parent*/  
+    }
+
+    </style>
+</head>
+<body>
+    <form action="traitement.php" method= "GET" id="monForm">
+
+        <fieldset>
+            <legend>Mes infos Persos</legend>
+            <p> 
+                <label for="nomComplet">Nom et Prenom</label>
+                <input type="text" id="nomComplet" placeholder="Nom et Prenom">
+            </p>
+            <!-- 
+                1/ créer un input de type email avec l'id email
+                2/ créer un input de type tel avec l'id tel
+                3/ créer un input de type text avec l'id sujet
+                4/ créer un textarea de type submit avec la valeur 'envoyer mon message'
+                5/ 
+                
+             -->
+             <label for="email">Email</label>
+             <input type="email" id="email" placeholder="Ton e-mail">
+             <label for="tel">Telephone</label>
+             <input type="tel" id="tel" placeholder="Ton n° de telephone">
+             <label for="text">Sujet</label>
+             <input type="text" id="sujet" placeholder="Sujet">
+             <textarea name="" id="message" cols="30" rows="10"></textarea>
+             <input type="submit" id="envoyer" value="Envoyer Mon message">
+
+
+
+        </fieldset>
+        <!-- <div class="recap"></div> -->
+    </form>
+    
+
+
+
+
+
+
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script>
+    
+        $(function(){
+            console.log('jQuery chargé');
+            $('#monForm').on('submit', function(ev){
+                ev.preventDefault();
+                 $('<p>').append('Nom et Prenom:  ' + $('#nomComplet').val()).appendTo('body'); 
+              $('<p>').append('Ton email est:  ' + $('#email').val()).appendTo('body'); 
+             
+              $('<p>').append('Telephone:  ' + $('#tel').val()).appendTo('body'); 
+                $('<p>').append('Le sujet:  ' + $('#sujet').val()).appendTo('body');
+            $('<p>').append('ici le message:  ' + $('#message').val()).appendTo('body');  
+
+               
+            })
+            
+    
+        })//Fin du scope
+    
+    
+    
+    
+    </script>
+
+</body>
+</html>

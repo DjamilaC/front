@@ -68,6 +68,50 @@
         <li>eq() renvoie, parmi une liste d'éléments, celui qui se trouve à l'index fourni</li>
     </ul>
     <a href="pixabay">lien vers images gratuites</a>
+    <h2>Les getters et les setters, ajouter, retirer des classes et savoir si on a deja des classes</h2>
+    <ul>
+        <li>addClass(): ajoute une class</li>
+        <li>removeClass (): retire une class </li>
+        <li>toggleClass():interrupteur ajoute / retire une class</li>
+        <li>hasClass(): tester l'existance d'une class</li>
+        <li>is():tester si on a plusieurs class</li>
+    </ul>
+    <p>Première methode de chainage</p>
+    <p>$('#pierre').removeClass('vert').addClass('rouge').removeClass('grand').addClass('petit');</p>
+
+    <h2>Les evenements</h2>
+    <p>La plupart ds interractions de l'utilisateur avec la page web, peut etre interceptée et une action lancée en retour</p>
+    <p>On peut dire à une fonction de s'executer quand un utilisateur clique sur un booutton ou il scrolle sur la fenetre, ou quand il appuie sur une touche du clavier</p>
+    <ul>
+        <li>mouse(souris): <br>
+             click: au clic sur l'elemenent <br>
+            mouseenter: lorsque la souris passe pardessus la zone de l'element <br>
+            mouseleave: lorsque la souris sort de cette zone
+      </li>
+      <li>keyboard(clavier): <br>
+            keydown: une touche de clavier qui est enfoncée <br>
+            keyup: une touche de clavier qui est relachée <br>
+                
+    </li>
+    <li>window(la fenetre du navigateur): <br>
+        le scroll: defilement de la fenetre <br>
+        resize: redimentionnement de la fenetre <br>
+    </li>
+    <li>
+        form(formulaire): <br>
+        change: pour les elements <code><input></code>, <select>, <textarea></textarea> , quand l'utilisateur change une de leur valeur
+        focus et blur: lorsque la souris est dans l'input ou sort de l'input <br>
+        submit: à l'envoi du formulaire
+    </li>
+    <li>
+        document (le contenu DOM) <br>
+        DOMContentLoad: lancé lorsque le document HTML est chargé et analysé sans attendre que les images et le css soient chargés.
+    </li>
+        
+    </ul>
+    <a href="http://html5doctor.com/element-index/#k">HTML5 Doctor</a>
+
+    <a href="https://www.accessiweb.org/index.php/galerie.html">site labelisés</a>
 
 </body>
 </html>
