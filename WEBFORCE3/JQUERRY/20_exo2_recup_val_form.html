@@ -110,13 +110,20 @@
             // recuperer les infos dans des variables
 
             var nomComplet = $('#nomComplet').val();
+            var email = $('#email').val();
+            var tel = $('#tel').val();
+            var sujet = $('#sujet').val();
+            var message = $('#message').val();
+            
             $(this).replaceWith(
             `
             <p class= "feedback">
-                bonjour <strong> ${nomComplet} </strong>
-                </p>
-            
-            
+                bonjour <strong> ${nomComplet} </strong> <br>
+                <em>ICI l'email:</em> ${email}<br>                 
+                <strong> Nous vous contacterons prochainement au :  ${tel}</strong> 
+                <br> <strong>Voici votre sujet :  <strong> ${sujet} <br>
+                ICI LE MESSAGE:  ${message}
+                </p>                 
             
             `)
             // $('<p>').append('Nom et Prenom:  ' + $('#nomComplet').val()).appendTo('body'); 
