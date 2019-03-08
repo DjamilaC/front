@@ -107,6 +107,24 @@
                 else
                 $('<p>').append(' le genre est:  ' + $('#femme').val()).appendTo('.info');
                 
+                // affiche les couleurs cochées par l'utilisateur
+                // CLOSURE pour acceder aux variables locales d'une fonction
+
+                function couleur(){
+                    var couleurs =[];
+
+                    return function(){
+                        $("input[type= 'checkbox']:checked").each(
+                            function(){
+                                couleurs.push(' ' + $(this).attr('id'));
+                                console.log(couleurs);
+                            }
+                        )// fin du each
+                        $('<p>').append('Tu as choisi les couleurs suivantes ' + couleurs).appendTo('.info');
+                    }
+                }
+                var ajoutCouleurs = couleurs();
+                ajoutCouleurs();
                 
 
 
