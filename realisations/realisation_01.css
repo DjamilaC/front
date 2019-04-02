@@ -1,0 +1,18 @@
+.container{
+    margin-top: 2rem ;
+    padding-top: 1rem;
+    background-image: url(https://st.depositphotos.com/1280399/2162/i/950/depositphotos_21626689-stock-photo-old-white-paper-background-subtle.jpg);
+
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: brown;
+    margin-top: 2rem;
+}
+img{
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+
+}

@@ -11,13 +11,19 @@ header{
     border: 2px solid black;
     height: 390px; 
     background-size: cover; 
-    /* width: 100%;
-    margin: 0;
-    padding: 0; */
+   
+    /* position: relative; */
 }
-#navbarTogglerDemo0{
-    background-color: transparent;
-    width: 1rem;
+header .navbar{
+    /* background-color: transparent;
+    width: 1rem; */
+    /* position: absolute; */
+    width: 100%;
+
+}
+header a .navbar{
+    margin-top: 20px;
+    
 }
 nav ul li{
     list-style: none;
